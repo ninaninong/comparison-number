@@ -50,13 +50,13 @@ if (ipk = 4) {
 //LEVEL 4
 
 function ipkCalculator(ipk) {
-  if (ipk = 4) {
+  if (ipk === 4) {
     return "cumlaude"
-  } else if ((ipk >= 3) && (ipk <= 3)) {
+  } else if (ipk < 4 && ipk >= 3) {
     return "pintar"
-  } else if ((ipk >= 2) && (ipk < 3)) {
+  } else if (ipk < 3 && ipk >= 2) {
     return "standar"
-  } else if ((ipk <= 2)) {
+  } else if (ipk < 2) {
     return "dropout"
   }
 }
@@ -64,3 +64,5 @@ console.log(ipkCalculator(4));
 console.log(ipkCalculator(3));
 console.log(ipkCalculator(2));
 console.log(ipkCalculator(1));
+
+//LEVEL 5
