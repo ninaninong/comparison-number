@@ -66,3 +66,9 @@ console.log(ipkCalculator(2));
 console.log(ipkCalculator(1));
 
 //LEVEL 5
+
+function ranNumGenerator() {
+  return Math.floor(Math.random() * 20)
+}
+
+console.log(ranNumGenerator());
